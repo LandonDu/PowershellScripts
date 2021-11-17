@@ -14,9 +14,9 @@ or
 This parameter is used to specify the file path of the list of computers. 
 #>
 
-
+#Parameter to point to the CSV file with the list of computers. Heading needs to be 'ADComputer'.
 param (
-    $FilePath = 'C:\radius180\computers.csv'
+    $FilePath = ''
 )
 
 import-csv -path $FilePath | ForEach-Object {remove-adcomputer -identity $_.ADComputer -confirm:$false}
