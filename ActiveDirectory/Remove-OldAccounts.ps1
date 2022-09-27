@@ -22,4 +22,4 @@ foreach ($account in $oldaccounts) {
 }
 
 #Outputs the disabled accounts to a txt file at C:\radius180\disabledaccounts.txt
-$disabledAccounts | Sort-object LastLogonDate -desc | format-table | out-file C:\radius180\disabledaccounts.txt
+$disabledAccounts | Sort-object LastLogonDate -desc | format-table | out-file C:\test\disabledaccounts.txt
