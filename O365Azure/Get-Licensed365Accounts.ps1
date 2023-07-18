@@ -1,4 +1,4 @@
-#Used for pulling all licensed O365 accounts in a tenant. It can be commonly used to pull accounts when Dave/Kim need to quote SAAS protect.
+#Used for pulling all licensed O365 accounts in a tenant.
 
 #Requires -RunAsAdministrator
 
